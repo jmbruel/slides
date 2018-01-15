@@ -8,7 +8,7 @@ DZSLIDES=../asciidoctor-backends/slim/dzslides
 STYLE=../asciidoctor-stylesheet-factory/stylesheets/jmb.css
 #ASCIIDOCTOR=asciidoctor
 ASCIIDOCTOR=asciidoctor -a icons=font -a iconsdir=$(ICONSDIR)  -a imagesdir=$(IMAGESDIR)
-EXT=asc
+EXT=adoc
 OUTPUT=.
 SITE=../jmbruel.github.io/teaching
 #THEME=colony
