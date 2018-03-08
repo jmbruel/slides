@@ -1,7 +1,8 @@
 
 //:prospect: ASSYSTEM
 //:prospect: Sopra-Steria
-:prospect: Fitec
+//:prospect: Fitec
+:prospect: CAP Gemini
 
 = icon:plane[] *Chaire* industrielle ANR -- Rencontre {prospect}
 Jean-Michel Bruel -- bruel@irit.fr -- {localdate}
@@ -174,12 +175,14 @@ MBSE
 
 [{incremental}]
 - ASYSTEM [detail]#volet formation MBSE / Leur centre SDC#
+- SOPRA-STERIA [detail]#volet formation et recherche MBSE#
+- FITEC [detail]#volet formation#
 - {prospect} ? icon:smile-o[]
 
 [{topic}]
 == Plan B
 
-chaire sans {ANR}
+chaire sans {ANR} => Projet SKILL de l'IRT
 
 ifdef::slides[]
 // ------------------------------------------ Brainstorm => up

@@ -1,0 +1,319 @@
+= icon:check-square[] **Qui**zz **D**r**i**ven **T**ea**ch**ing image:quidditch.jpg[width=30%]
+Jean-Michel Bruel -- bruel@irit.fr -- {localdate}
+:icons: font
+:experimental:
+:status:
+:imagesdir: images
+//:siteurl: http://jmbruel.github.io/teaching/MobileModeling.html
+:siteurl: http://bit.ly/jmb-apsio
+//--------------------- slides
+ifdef::slides[]
+:dzslides-style: tomorrow
+//:dzslides-style: stormy, watermelon, tomorrow, truffle, statement, default
+:dzslides-transition: fade
+:dzslides-fonts: family=Yanone+Kaffeesatz:400,700,200,300&family=Cedarville+Cursive
+//:dzslides-highlight: asciidoctor
+:dzslides-highlight: monokai
+:source-highlighter: highlightjs
+:dzslides-status:
+:topic: .topic
+:intro: .topic.intro
+:statement: .topic.statement
+:incremental: .incremental
+:source: .topic.source
+:linkcss:
+endif::slides[]
+//--------------------- cours
+ifndef::slides[]
+:source-highlighter: highlight
+:topic:
+:intro:
+:statement:
+:incremental: %step
+:source:
+endif::slides[]
+
+
+// ------------------------------------------ definitions
+ifndef::definitions[]
+include::../definitions.txt[]
+endif::definitions[]
+:androidicon: Android icon:android[]
+:iosicon: http://www.apple.com/fr/ios/[iOS icon:apple[]]
+
+
+
+/////
+
+// Absents : IO, PS, NH
+
+// ------------------------------------------ disclaimer
+:numbered!:
+[{intro}]
+== Avant-propos
+
+{siteurl}
+
+ifdef::slides[== !]
+
+Désolé...
+[{incremental}]
+- ...pour l'anglais (really?)
+- ... de ne pas être un spécialiste d'{android}
+- ... que vous soyez la 1ère promo à subir ce cours
+- ...que ce cours arrive avant que vous sachiez développer en Android/Mobile
+- ... que vous ayiez à bosser *sans ordi* ce matin! [detail]#(au moins 1h30!)#
+
+/////
+
+// ------------------------------------------ plan
+:numbered:
+[{intro}]
+== icon:book[] Ordre du jour
+ifdef::slides[== !]
+
+[{incremental}]
+- icon:users[] 1/4 d'heure toulousain [detail]#15'#
+- icon:institution[] Le mot du directeur [detail]#30'#
+- icon:user-secret[] Présentation du FSD [detail]#30'#
+- icon:male[] Le mot du représentant IRIT-UT2J [detail]#15'#
+- icon:child[] Présentation du dernier recruté [detail]#15'#
+- Objectif => finir à *11h30*
+//- icon:comments[] Cloture conviviale [detail]#...#
+
+[detail]#Ordre au choix : des contraintes?#
+// ------------------------------------------ plan
+//[{intro}]
+//== icon:users[] Tour de table
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:institution[] Le mot du directeur
+
+// ------------------------------------------ plan
+//[{intro}]
+//== icon:institution[] Questions / Réponses ?
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:user-secret[] Présentation du *FSD*
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:male[] Le mot du représentant IRIT-UT2J
+
+[{topic}]
+== De nombreux *excusés*
+
+- UT2J : Marie-Christine Jaillet, VP Recherche
+- IRIT : Michelle Sibilla
+- Nous : André, Nathalie, Iulian, Marie-Françoise, Patricia, Josiane, Françoise, ...
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:bar-chart-o[] Les chercheurs IRIT à UT2J
+
+[{incremental}]
+//* Thèses soutenues : ??
+* HdR soutenue : 1 (Brahim Hamid)
+* Poste à venir
+* Annonces, séminaires, etc. : => message personnel : utilisez la liste `irit-ut2J` (modérée, mais ouverte)
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:bar-chart-o[] Les chercheurs IRIT à UT2J
+
+- 28 permanents + 2 ATERs
+- 18 doctorants + 3 post-docs + 1 ingénieur
+- F/H	=> 43%, PR/MCF => 30%, HdR => 43%
+
+image::evolution.png[width=65%]
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:graduation-cap[] Enseignements rentrée 2017
+
+- Master ICE & ISMAG => Master MIASHS
+- L3 MIASHS => Ouverte aux contrats pro
+** demande Alternance?
+- DUT => Ouvert à l'apprentissage (L2)
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:graduation-cap[] Postes UT2J pour l'avenir
+
+- Rappel : MCF 27 IUT Blagnac => 09/2016
+- Rentrée 2017 : PR 27 DMI
+
+
+// ------------------------------------------ plan
+[{topic}]
+== Rôle du représentant IRIT-UT2J
+
+* Comité directeur + Conseil des resp. de thèmes
+* Conseil de labo (invité)
+* Conseil scientifique
+* Conférence de la recherche
+* Conseil des directeurs de composantes
+* ...
+
+// ------------------------------------------ plan
+[{topic}]
+== Procédures (suite)
+
+http://bit.ly/irit-ut2j
+
+image::faq.png[width=80%]
+
+//////
+// ------------------------------------------ plan
+[{topic}]
+== icon:wheelchair[] J'apprends le job... (suite)
+
+Pourquoi pas l'ENT ?
+
+image::github.png[width=80%]
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:wheelchair[] J'apprends le job... (suite)
+
+J'écris ça :
+.....
+== AirBnB ?
+// Patricia Vidal - 21/09/2015
+
+Est-il possible de réserver ses nuités auprès de https://www.airbnb.fr[Airbnb]?
+
+[NOTE]
+====
+*Oui*, il faut simplement présenter le justificatif de paiement ou la facture.
+====
+.....
+`make deploy`, et ça donne ça [detail]#http://jmbruel.github.io/irit-ut2j/#
+
+image::airbnb.png[width=70%]
+//////
+
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:bar-chart-o[] Les points-chercheurs
+
+* Dotation inchangée 38 K€
+** Merci à la direction UT2J
+* [detail]#(2016 => 38 K€ 2015 => 39.4 K€ 2011 => 41.5 K€)#
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:bar-chart-o[] Les points-chercheurs à l'UT2J
+
+[{incremental}]
+- Enseignants-chercheur => *4* points
+- Post-doc => *2* pts (si année pleine)
+- Doctorants (y compris co-tutelle, CIFRE, non cumulable avec ATER) => *2* points
+- ATER (tps plein ou non) => *2* points
+- Bonus pour une soutenance UT2J dans l’année `N-1` (thèse ou HDR) => *2* points
+- Accueil des futurs recrutés (2 points)
+
+/////
+// ------------------------------------------ plan
+[{topic}]
+== icon:bar-chart-o[] Les points-chercheurs UT2J (règles)
+
+[{incremental}]
+- 1. sont comptabilisées les personnes en poste ou inscrits à UT2J (enseignant-chercheur, doctorant ou autre)
+- 2. ne sont pas comptabilisés : Past, enseignants associés, stagiaires, ...
+- 3. la liste des enseignants chercheurs membres de l’IRIT prise en compte est celle au 1er janvier de l’année `N` pour le budget de l’année `N`
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:bar-chart-o[] Les points-chercheurs UT2J (règles - suite)
+
+- 4. les doctorants inscrits (année `N-1` - `N`) :
+[{incremental}]
+* inscrit UT2J (qu'il soit ATER ou non) => 2 pts;
+* non inscrit UT2J (qu'il soit ATER ou non) => 0 pt
+[detail]#(car c'est le lieu d'inscription en thèse qui prime)#
+* cas particulier de la règle 8
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:bar-chart-o[] Les points-chercheurs UT2J (règles - suite)
+
+[{incremental}]
+- 5. les ATER non doctorants (donc ayant soutenu leur thèse) sont comptabilisés dans une équipe IRIT-UT2J à condition qu’ils y effectuent leur recherche
+- 6. les thèses et HDR soutenues l'année `N-1` donnent lieu à un bonus soutenance de 2 points
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:bar-chart-o[] Les points-chercheurs UT2J (règles - suite)
+
+- 7. les post-doc sur contrat UT2J sont comptabilisés au prorata du nombre de mois (base de 2 points pour une année)
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:bar-chart-o[] Les points-chercheurs UT2J (règles - suite)
+
+- 8. règle spécifique UT2J : les doctorants dirigés par un HDR UT2J, bénéficiaires de bourses fléchées (par exemple via le PRES) les empêchant de s’inscrire à l’UT2J, bénéficient des droits des inscrits UT2J en terme de points chercheur (à condition qu’il n’y ait pas d’émargement à 2 établissements différents)
+
+/////
+
+// ------------------------------------------ plan
+[{topic}]
+== Les points-chercheurs => icon:comments-o[] discussions
+
+[{incremental}]
+- Status quo ?
+** Demande de compter les ingénieurs?
+** Demande de compter les co-encadrements (pas co-tutelles)?
+- D'autres points à soumettre au débat?
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:check-square-o[] Passons au *Vote*
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:users[] Présentations
+
+- L'an dernier toutes les équipes
+- Cette année : Paul Renaud-Goud
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:child[] Le *dernier recruté*
+
+// ------------------------------------------ plan
+//[{intro}]
+//== icon:comments[] Cloture conviviale
+
+ifdef::slides[]
+// ------------------------------------------ Brainstorm => up
+[{intro}]
+== *The End* {nbsp} {nbsp} {nbsp} [detail]#(for me!)#
+
+endif::slides[]
+
+== Notes prises pendant l'AG
+
+=== Présentation de Michel Daydé
+
+- Réorganisation de l'IRIT
+** Nouvelle politique scientifique
+** Visibilité extérieur (HCERES : évaluation fin 2019)
+
+=== Présentation de JMB
+
+- Décision prise en AG :
+** Compter les ingénieurs (pris sur contrat recherche UT2J) : 2 points
+** Compter les co-direction (en plus des co-tutelles) : 1 point
+
+=== Lien FSD IRIT(UPS) et Daniel Mons
+
+- Une seule demande pour la durée (et un peu plus) d'une thèse en co-tutelle
+- Répartition des responsabilités, la règle c'est en fonction de l'employeur :
+** On part en mission sur des crédits UT2J => {fsdut2j}
+** On part en mission sur des crédits UT2J => {fsdut2j} + {fsdirit} (un seul avis rendu
+car coordination des deux)
+** On accueil des extérieurs à l'IRIT (même site UT2J) => {fsdirit}
