@@ -1,0 +1,133 @@
+= **F**inal **U**ser **N**eeds {nbsp}{nbsp}{nbsp}image:sm@rt-logo.png[width=30%]
+Jean-Michel Bruel -- bruel@irit.fr -- Bellairs'19
+:icons: font
+:experimental:
+:status:
+:imagesdir: images
+//:siteurl: http://jmbruel.github.io/teaching/MobileModeling.html
+:siteurl: http://bit.ly/jmb-apsio
+//--------------------- slides
+ifdef::slides[]
+:dzslides-style: tomorrow
+//:dzslides-style: stormy, watermelon, tomorrow, truffle, statement, default
+:dzslides-transition: fade
+:dzslides-fonts: family=Yanone+Kaffeesatz:400,700,200,300&family=Cedarville+Cursive
+//:dzslides-highlight: asciidoctor
+:dzslides-highlight: monokai
+:source-highlighter: highlightjs
+:dzslides-status:
+:topic: .topic
+:intro: .topic.intro
+:statement: .topic.statement
+:incremental: .incremental
+:source: .topic.source
+:linkcss:
+endif::slides[]
+//--------------------- cours
+ifndef::slides[]
+:source-highlighter: highlight
+:topic:
+:intro:
+:statement:
+:incremental: %step
+:source:
+endif::slides[]
+
+
+// ------------------------------------------ definitions
+ifndef::definitions[]
+include::../definitions.txt[]
+endif::definitions[]
+:androidicon: Android icon:android[]
+:iosicon: http://www.apple.com/fr/ios/[iOS icon:apple[]]
+
+// ------------------------------------------ plan
+:numbered:
+//[{intro}]
+//== icon:book[] Ordre du jour
+ifdef::slides[== Outline]
+
+[{incremental}]
+- icon:male[] Who am I ?
+- icon:user-secret[] What I do ?
+- icon:users[] What I'd like from our group ?
+- icon:child[] Let's have FUN!
+//- icon:comments[] Cloture conviviale [detail]#...#
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:male[] Who am I ?
+ifdef::slides[== icon:male[] Who am I]
+
+[{incremental}]
+- France -> Toulouse -> IRIT Lab -> SM@RT
+- **S**mart **M**odeling for softw**@**re **R**esearch and **T**echnology
+- image:ourTeam.png[width=70%]
+- MBSE (SysML)
+
+// ------------------------------------------ plan
+[{intro}]
+== From *UML* to SysML to *Reqs*
+
+// ------------------------------------------ plan
+//[{intro}]
+//== icon:institution[] Questions / Réponses ?
+
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:link[] More than traceability
+
+[{topic}]
+== Dealing with complexity
+
+image::dilbert.png[width=100%]
+[detail]#Source: http://dilbert.com/#
+
+[{topic}]
+== Requirements links
+
+image::reqs.jpg[width=90%]
+[detail]#Source: [Friedenthal]#
+
+[{topic}]
+== Requirements validation
+
+image::autoreq.png[width=90%]
+[detail]#(2 SM@RT PhDs)#
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:atlas[] Model as a requirement
+
+[{topic}]
+== System specificities
+
+[{incremental}]
+- Several layers of Req -> Models [detail]#... and back!#
+- Everything is a data [detail]#{key,value}#
+- Globalization of models [detail]#and data (PLM)#
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:users[] What I'd like from our group
+ifdef::slides[== Suggestions]
+
+[{incremental}]
+* **F**inal **U**ser **N**eeds:
+** Model as an *API* 
+** Accessibility
+** Explainable software
+** Data Models you can *play with*
+* POC
+** Live prototype/demo
+** Sandbox
+** Serious Game
+
+
+ifdef::slides[]
+// ------------------------------------------ Brainstorm => up
+[{intro}]
+== *The End* {nbsp} {nbsp} {nbsp} [detail]#(for me!)#
+
+endif::slides[]
