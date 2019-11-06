@@ -1,6 +1,5 @@
-= AG IRIT-UT2J image:logo-irit.png[width=30%]
-//Jean-Michel Bruel -- bruel@irit.fr -- {localdate}
-Jean-Michel Bruel -- bruel@irit.fr -- 04&17/04/2019
+= icon:check-square[] **Qui**zz **D**r**i**ven **T**ea**ch**ing image:quidditch.jpg[width=30%]
+Jean-Michel Bruel -- bruel@irit.fr -- {localdate}
 :icons: font
 :experimental:
 :status:
@@ -74,41 +73,22 @@ Désolé...
 ifdef::slides[== !]
 
 [{incremental}]
-- icon:institution[] Présentation Valo [detail]#20'#
-- icon:male[] Désignation d’un représentant Valo [detail]#10'#
-- icon:users[] Profil recherche du poste PU [detail]#30'#
-- icon:dollar[] Modalités du budget 2019 [detail]#20'#
-- icon:map[] Point sur l’occupation de la MdR [detail]#10'#
-- icon:users[] 3 items qui nous caractérisent
-//- icon:institution[] Élections IRIT [detail]#s'il reste du temps#
-//- Objectif => finir à *13h30*
+- icon:users[] 1/4 d'heure toulousain [detail]#15'#
+- icon:institution[] Le mot du directeur [detail]#30'#
+- icon:user-secret[] Présentation du FSD [detail]#30'#
+- icon:male[] Le mot du représentant IRIT-UT2J [detail]#15'#
+- icon:child[] Présentation du dernier recruté [detail]#15'#
+- Objectif => finir à *11h30*
 //- icon:comments[] Cloture conviviale [detail]#...#
 
-//[detail]#Ordre au choix : des contraintes?#
+[detail]#Ordre au choix : des contraintes?#
 // ------------------------------------------ plan
-[{intro}]
-== icon:users[] Tour de table
-
-[{topic}]
-== De nombreux *excusés*
-
-Pascal, Cathy, Charlotte, Benoît, Iulian, Thierry, Laurence, Josiane, Hervé, ...
+//[{intro}]
+//== icon:users[] Tour de table
 
 // ------------------------------------------ plan
 [{intro}]
-== icon:institution[] Présentation Valo
-
-// ------------------------------------------ plan
-[{topic}]
-== icon:institution[] Nos soutiens...
-
-Tania Garcia-Boudet <tania.garcia@univ-tlse2.fr> 
-
-Valentine CHATELET <valentine.chatelet@univ-toulouse.fr>
-
-Cyrille Munoz <Cyrille.MUNOZ@univ-tlse2.fr>
-
-[detail]#Charlotte Sicre <charlotte.sicre@irit.fr>#
+== icon:institution[] Le mot du directeur
 
 // ------------------------------------------ plan
 //[{intro}]
@@ -116,35 +96,113 @@ Cyrille Munoz <Cyrille.MUNOZ@univ-tlse2.fr>
 
 // ------------------------------------------ plan
 [{intro}]
-== icon:female[] Désignation d’un(e) représentant(e) Valo
-
-Nathalie Hernandez, seule candidate est désignée représentante du laboratoire IRIT-UT2J au conseil de la valo.
+== icon:user-secret[] Présentation du *FSD*
 
 // ------------------------------------------ plan
 [{intro}]
-== icon:users[] Profil recherche du poste PU
+== icon:male[] Le mot du représentant IRIT-UT2J
+
+[{topic}]
+== De nombreux *excusés*
+
+- UT2J : Marie-Christine Jaillet, VP Recherche
+- IRIT : Michelle Sibilla
+- Nous : André, Nathalie, Iulian, Marie-Françoise, Patricia, Josiane, Françoise, ...
 
 // ------------------------------------------ plan
 [{topic}]
-== Propositions à voter
+== icon:bar-chart-o[] Les chercheurs IRIT à UT2J
 
 [{incremental}]
-- Promotion PU
-- => critères différents (ancienneté, services rendus, historique…) [detail]#en plus de l’aspect purement scientifique#
-- => Groupe de sages "pérenne" pour le Comité de Sélection (comme FSI etc.) ? [detail]#pour les promos#
-- => Plus précis que "Informatique" ? [detail]#pour éviter les passages en CA#
+//* Thèses soutenues : ??
+* HdR soutenue : 1 (Brahim Hamid)
+* Poste à venir
+* Annonces, séminaires, etc. : => message personnel : utilisez la liste `irit-ut2J` (modérée, mais ouverte)
 
 // ------------------------------------------ plan
-[{intro}]
-== icon:dollar[] Modalités du budget 2019
+[{topic}]
+== icon:bar-chart-o[] Les chercheurs IRIT à UT2J
+
+- 28 permanents + 2 ATERs
+- 18 doctorants + 3 post-docs + 1 ingénieur
+- F/H	=> 43%, PR/MCF => 30%, HdR => 43%
+
+image::evolution.png[width=65%]
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:graduation-cap[] Enseignements rentrée 2017
+
+- Master ICE & ISMAG => Master MIASHS
+- L3 MIASHS => Ouverte aux contrats pro
+** demande Alternance?
+- DUT => Ouvert à l'apprentissage (L2)
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:graduation-cap[] Postes UT2J pour l'avenir
+
+- Rappel : MCF 27 IUT Blagnac => 09/2016
+- Rentrée 2017 : PR 27 DMI
+
+
+// ------------------------------------------ plan
+[{topic}]
+== Rôle du représentant IRIT-UT2J
+
+* Comité directeur + Conseil des resp. de thèmes
+* Conseil de labo (invité)
+* Conseil scientifique
+* Conférence de la recherche
+* Conseil des directeurs de composantes
+* ...
+
+// ------------------------------------------ plan
+[{topic}]
+== Procédures (suite)
+
+http://bit.ly/irit-ut2j
+
+image::faq.png[width=80%]
+
+//////
+// ------------------------------------------ plan
+[{topic}]
+== icon:wheelchair[] J'apprends le job... (suite)
+
+Pourquoi pas l'ENT ?
+
+image::github.png[width=80%]
+
+// ------------------------------------------ plan
+[{topic}]
+== icon:wheelchair[] J'apprends le job... (suite)
+
+J'écris ça :
+.....
+== AirBnB ?
+// Patricia Vidal - 21/09/2015
+
+Est-il possible de réserver ses nuités auprès de https://www.airbnb.fr[Airbnb]?
+
+[NOTE]
+====
+*Oui*, il faut simplement présenter le justificatif de paiement ou la facture.
+====
+.....
+`make deploy`, et ça donne ça [detail]#http://jmbruel.github.io/irit-ut2j/#
+
+image::airbnb.png[width=70%]
+//////
+
 
 // ------------------------------------------ plan
 [{topic}]
 == icon:bar-chart-o[] Les points-chercheurs
 
-* Dotation inchangée (depuis la baisse) 37.012 K€
+* Dotation inchangée 38 K€
 ** Merci à la direction UT2J
-* [detail]#(2018 => 36K€, 2016 => 38 K€, 2015 => 39.4 K€, 2011 => 41.5 K€)#
+* [detail]#(2016 => 38 K€ 2015 => 39.4 K€ 2011 => 41.5 K€)#
 
 // ------------------------------------------ plan
 [{topic}]
@@ -158,6 +216,7 @@ Nathalie Hernandez, seule candidate est désignée représentante du laboratoire
 - Bonus pour une soutenance UT2J dans l’année `N-1` (thèse ou HDR) => *2* points
 - Accueil des futurs recrutés (2 points)
 
+/////
 // ------------------------------------------ plan
 [{topic}]
 == icon:bar-chart-o[] Les points-chercheurs UT2J (règles)
@@ -192,13 +251,13 @@ Nathalie Hernandez, seule candidate est désignée représentante du laboratoire
 
 - 7. les post-doc sur contrat UT2J sont comptabilisés au prorata du nombre de mois (base de 2 points pour une année)
 
-Cette règle est annulée à partir de 2019 (décision du 17/04/2019)
 // ------------------------------------------ plan
 [{topic}]
 == icon:bar-chart-o[] Les points-chercheurs UT2J (règles - suite)
 
 - 8. règle spécifique UT2J : les doctorants dirigés par un HDR UT2J, bénéficiaires de bourses fléchées (par exemple via le PRES) les empêchant de s’inscrire à l’UT2J, bénéficient des droits des inscrits UT2J en terme de points chercheur (à condition qu’il n’y ait pas d’émargement à 2 établissements différents)
 
+/////
 
 // ------------------------------------------ plan
 [{topic}]
@@ -206,52 +265,28 @@ Cette règle est annulée à partir de 2019 (décision du 17/04/2019)
 
 [{incremental}]
 - Status quo ?
-** Demande de compter les ingénieurs => adoptée (décision du 17/04/2019)
-** Rien pour les co-encadrements (pas co-tutelles) => adoptée (décision du 17/04/2019)
+** Demande de compter les ingénieurs?
+** Demande de compter les co-encadrements (pas co-tutelles)?
 - D'autres points à soumettre au débat?
 
 // ------------------------------------------ plan
+[{intro}]
+== icon:check-square-o[] Passons au *Vote*
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:users[] Présentations
+
+- L'an dernier toutes les équipes
+- Cette année : Paul Renaud-Goud
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:child[] Le *dernier recruté*
+
+// ------------------------------------------ plan
 //[{intro}]
-//== icon:check-square-o[] Passons au *Vote*
-
-// ------------------------------------------ plan
-[{intro}]
-== Point sur l’occupation de la MdR
-
-- Bien pleine!
-- cf. https://docs.google.com/spreadsheets/d/1BkMjTIz78WgqfG5Whey0riqjb7_TOv8n-U8XmxhCu_k/edit?usp=sharing
-
-// ------------------------------------------ plan
-[{intro}]
-== icon:comments[] Divers
-
-[{topic}]
-== Evaluation HCERES
-
-On nous demande 3 items de plus que ceux-ci : 
-
-- Science des données
-- Modélisation, conception d'algorithmes d'apprentissage
-- Théorie de l'information, théorie des nombres, géométrie
-
-[{topic}]
-== Evaluation HCERES (suite)
-
-Je propose : 
-
-- Architecture, Systèmes et Réseaux
-- Ingénierie des Logiciels et des Systèmes  
-- Intelligence Artificielle et Collective
-- [detail]#Science des données#
-- [detail]#Modélisation, conception d'algorithmes d'apprentissage#
-- [detail]#Théorie de l'information, théorie des nombres, géométrie#
-
-[{topic}]
-== Liens avec la MSHS
-
-//[{topic}]
-//== icon:institution[] Élections IRIT [detail]#s'il reste du temps#
-
+//== icon:comments[] Cloture conviviale
 
 ifdef::slides[]
 // ------------------------------------------ Brainstorm => up
