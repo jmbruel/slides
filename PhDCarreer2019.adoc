@@ -119,7 +119,7 @@ expérience professionnelle*...
 == Situation
 
 [{incremental}]
-* Research Engineers diplomas (2004):
+* Research Engineers diplomas [detail]#(2004)#:
 ** 50% Engineering schools
 ** 20% Ph.D.
 * Academic system
@@ -136,7 +136,7 @@ image::hiring.png[width=60%,role="middle"]
 
 // ------------------------------------------ plan
 [{intro}]
-== icon:dollar[] PhD hiring *benefits*
+== icon:dollar[] PhD hiring benefits
 // ------------------------------------------ plan
 
 French specificity [detail]#(?)#
@@ -160,12 +160,20 @@ En cas de CDI pour un "jeune docteur" :
 
 
 [{topic}]
-== Salary (abroad)
+== Salary
 
 [{incremental}]
-- Average PostDoc #2.000€ / month#
+- Average PostDoc [detail]#2.000€ / month#
 - Luxembourg PostDoc [detail]#4.000€ / month#
-- Average 'CDI' #40.000€ / year#
+- Average 'CDI' [detail]#40.000€ / year#
+
+[{topic}]
+== Salary
+
+[detail]#https://neuvoo.fr/salaire/?job=Post%20Doc#
+
+image::postdoc.png[width=100%,role="middle"]
+
 
 [{topic}]
 == What to do ?
@@ -188,11 +196,12 @@ image::whatdo.png[width="100%",role="middle"]
 
 [{incremental}]
 * During the Ph.D.
-** Provoque experience in situ
+** Provoque *industrial experience*
 ** Take enterprise culture courses in the ED curriculum
-** Provoque contacts during confs & workshops 
+** Provoque *contacts* during confs & workshops 
 * After the Ph.D.
 ** Accept research R.I.P.
+** Open your mind to new adventure
 
 [{topic}]
 == More...
