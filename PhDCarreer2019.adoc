@@ -1,0 +1,227 @@
+= icon:graduation-cap[] Ph.D. Carreers image:sm@rt-logo.png[width=20%] image:logo-diverse.png[width=20%]
+//Jean-Michel Bruel -- bruel@irit.fr -- {localdate}
+Jean-Michel Bruel -- bruel@irit.fr -- 19/12/2019
+:icons: font
+:experimental:
+:status:
+:imagesdir: images
+:siteurl: http://bit.ly/jmb-apsio
+//--------------------- slides
+ifdef::slides[]
+:dzslides-style: tomorrow
+//:dzslides-style: stormy, watermelon, tomorrow, truffle, statement, default
+:dzslides-transition: fade
+:dzslides-fonts: family=Yanone+Kaffeesatz:400,700,200,300&family=Cedarville+Cursive
+//:dzslides-highlight: asciidoctor
+:dzslides-highlight: monokai
+:source-highlighter: highlightjs
+:dzslides-status:
+:topic: .topic
+:intro: .topic.intro
+:statement: .topic.statement
+:incremental: .incremental
+:source: .topic.source
+:linkcss:
+endif::slides[]
+//--------------------- cours
+ifndef::slides[]
+:source-highlighter: highlight
+:topic:
+:intro:
+:statement:
+:incremental: %step
+:source:
+:numbered!:
+endif::slides[]
+
+
+// ------------------------------------------ definitions
+ifndef::definitions[]
+include::../definitions.txt[]
+endif::definitions[]
+:androidicon: Android icon:android[]
+:iosicon: http://www.apple.com/fr/ios/[iOS icon:apple[]]
+:slidesurl: https://github.com/jmbruel/slides/PhDCarreer2019.html
+
+[%notitle]
+== PhDComics instant
+
+:front-cover-image: image:phd091912s.gif[Front Cover,1050,1600]
+
+:title-logo-image: image:phd091912s.gif[width="100%",role="middle"]
+
+image::phd091912s.gif[width="100%",role="middle"]
+
+////
+// ------------------------------------------ plan
+[{intro}]
+== icon:book[] Roadmap of this talk
+ifdef::slides[== !]
+
+[{incremental}]
+- icon:institution[] Présentation Valo [detail]#Must#
+- icon:male[] Désignation d’un représentant Valo [detail]#Should#
+- icon:users[] Profil recherche du poste PU [detail]#Could#
+- icon:dollar[] Ph.D. hiring benefits [detail]#Could#
+- icon:users[] Example stats [detail]#Will#
+- icon:map[] More... [detail]#Won't#
+
+////
+
+[{topic}]
+== {slidesurl}
+
+image::qrcode.svg[width="40%",role="middle"]
+////
+['qrcode', target='qrcode.png', size=20, alt='http://{slidesurl}', role='middle stretch-y']
+----
+http://mojavelinux.github.com/decks/asciidoc-with-pleasure
+----
+////
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:users[] *Facts* & Gossips
+// ------------------------------------------ plan
+
+
+// ------------------------------------------ plan
+[{topic}]
+== Stats
+
+[detail]#Cereq, 2017#
+
+[{incremental}]
+- 1/3 work for private _company_ [detail]#(5 years after defense)#
+- 78% in _CDI_ 
+- 1/3 joined _academia_ [detail]#(all dsicsiplines)#
+
+// ------------------------------------------ plan
+[{topic}]
+== HR Quote
+
+[quote]
+[Faire une thèse] c’est une question de choix personnel. Mais clairement aujourd’hui
+l’entreprise recherche des ingénieurs, dotés d’un bon sens de la communication et orientés
+clients. *Ce n’est pas l’image que donnent les docteurs*...
+
+// ------------------------------------------ plan
+[{topic}]
+== HR Quote
+
+[quote]
+..., je considère plus comme un *handicap* que comme une opportunité de
+prendre en SI des personnes qui ont fait 3-4 ans d’études de plus, mais *n’ont pas de véritable
+expérience professionnelle*...
+
+// ------------------------------------------ plan
+[{topic}]
+== Situation
+
+[{incremental}]
+* Research Engineers diplomas (2004):
+** 50% Engineering schools
+** 20% Ph.D.
+* Academic system
+** dead-end!! [detail]#sorry!#
+** upcoming changes (tenure)
+
+// ------------------------------------------ plan
+[{topic}]
+== Google Hires *one PhDs in Every Three* Hires
+
+[detail]#https://hackerlife.co/blog/google-san-francisco-phd#
+
+image::hiring.png[width=60%,role="middle"]
+
+// ------------------------------------------ plan
+[{intro}]
+== icon:dollar[] PhD hiring *benefits*
+// ------------------------------------------ plan
+
+French specificity [detail]#(?)#
+
+// ------------------------------------------ plan
+[{topic}]
+== Salary (in France)
+
+[{incremental}]
+- Engineer + 3y exp.
+- CIR benefits
+
+[{topic}]
+== **C**rédit **I**mpôts **R**echerche
+
+En cas de CDI pour un "jeune docteur" :
+
+[{incremental}]
+- doublement des dépenses de salaire
+- majoration à 100% du taux forfaitaire des frais de fonctionnement
+
+
+[{topic}]
+== Salary (abroad)
+
+[{incremental}]
+- Average PostDoc #2.000€ / month#
+- Luxembourg PostDoc [detail]#4.000€ / month#
+- Average 'CDI' #40.000€ / year#
+
+[{topic}]
+== What to do ?
+
+[detail]#https://www.noodle.com/articles/is-a-phd-in-computer-science-worth-it-jobs-salary-how-long-does-it-take#
+
+image::whatdo.png[width="100%",role="middle"]
+
+[{topic}]
+== Start a... startup!
+
+[{incremental}]
+- Start before the end of the thesis
+- Get some help (_incubateur_, _SATT_,...)
+
+
+// ------------------------------------------ plan
+[{topic}]
+== Advices
+
+[{incremental}]
+* During the Ph.D.
+** Provoque experience in situ
+** Take enterprise culture courses in the ED curriculum
+** Provoque contacts during confs & workshops 
+* After the Ph.D.
+** Accept research R.I.P.
+
+[{topic}]
+== More...
+
+- https://www.abg.asso.fr/fr/
+- https://www.cigref.fr/cigref_publications/RapportsContainer/Parus2011/Docteurs_en_informatique_quelle-s_carriere-s_en_entreprise_CIGREF_2011.pdf
+- https://www.monster.fr/conseil-carriere/article/doctorat-et-doctorants-4-conseils-pour-integrer-prive-et-monde-entreprise
+- https://www.online-phd-programs.org/highest-paying-doctorate-computer-science-jobs/
+- https://www.sogedev.com/blog/2015/05/19/cir-et-recrutement-de-jeunes-docteurs/
+- http://reussirsathese.com/
+
+ifdef::slides[]
+// ------------------------------------------ Brainstorm => up
+[{intro}]
+== *The End* {nbsp} {nbsp} {nbsp} [detail]#(for me!)#
+
+endif::slides[]
+
+ifndef::slides[]
+== About...
+
+****************************************************************
+This version and the link:PhDCarreer2019.slides.html[slides version] 
+made by mailto:{email}[{author}] via  {asciidoctorlink} (version `{asciidoctor-version}`) from 'Dan Allen', based on {asciidoc}.
+Licence Creative Commons.
+image:88x31.png["Licence Creative
+Commons",style="border-width:0",link="http://creativecommons.org/licenses/by-sa/3.0/"]
+http://creativecommons.org/licenses/by-sa/3.0/[licence Creative Commons Paternité - Partage à l&#39;Identique 3.0 non transposé].
+****************************************************************
+
+endif::slides[]
+

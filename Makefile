@@ -21,7 +21,6 @@ $(OUTPUT)/%.html: %.$(EXT)
 	@echo '==> Compiling asciidoc files to generate HTML'
 	$(ASCIIDOCTOR) -b html5 \
 		-a stylesheet=jmb.css \
-		-a numbered \
 		-a source-highlighter=highlightjs \
 		-a data-uri \
 		-a toc2 \
