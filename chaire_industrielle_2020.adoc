@@ -1,0 +1,222 @@
+//:prospect: Thales
+//:prospect: ASSYSTEM
+//:prospect: Sopra-Steria
+//:prospect: Fitec
+//:prospect: CAP Gemini
+:prospect: SAFRAN
+
+= icon:plane[] *Chaire* industrielle ANR -- Rencontre {prospect}
+//Jean-Michel Bruel -- bruel@irit.fr -- {localdate}
+Jean-Michel Bruel -- bruel@irit.fr -- 6 janvier 2020
+:icons: font
+:experimental:
+:status:
+:imagesdir: images
+//:siteurl: http://jmbruel.github.io/teaching/MobileModeling.html
+:siteurl: http://bit.ly/jmb-apsio
+//--------------------- slides
+ifdef::slides[]
+:dzslides-style: tomorrow
+//:dzslides-style: stormy, watermelon, tomorrow, truffle, statement, default
+:dzslides-transition: fade
+:dzslides-fonts: family=Yanone+Kaffeesatz:400,700,200,300&family=Cedarville+Cursive
+//:dzslides-highlight: asciidoctor
+:dzslides-highlight: monokai
+:source-highlighter: highlightjs
+:dzslides-status:
+:topic: .topic
+:intro: .topic.intro
+:statement: .topic.statement
+:incremental: .incremental
+:source: .topic.source
+:linkcss:
+endif::slides[]
+//--------------------- cours
+ifndef::slides[]
+:source-highlighter: highlight
+:topic:
+:intro:
+:statement:
+:incremental: %step
+:source:
+endif::slides[]
+
+
+// ------------------------------------------ definitions
+ifndef::definitions[]
+include::../definitions.txt[]
+endif::definitions[]
+:androidicon: Android icon:android[]
+:iosicon: http://www.apple.com/fr/ios/[iOS icon:apple[]]
+:anr-url: http://anr.fr
+:anr: {anr-url}[ANR]
+:url-anr-chaire: {anr-url}/fr/detail/call/chaires-industrielles-edition-2020/
+
+// ------------------------------------------ plan
+:numbered:
+
+ifdef::slides[]
+[{topic}]
+== icon:book[] Plan
+
+//[{incremental}]
+- icon:bullhorn[] Appel d'offre ANR
+- icon:money[] Intérêts
+- icon:road[] Pistes
+endif::slides[]
+
+//-----------------------------------
+[{intro}]
+== icon:bullhorn[] Appel d'offre ANR
+//-----------------------------------
+ifndef::slides[:leveloffset: +1]
+
+[{topic}]
+== Détails
+
+{url-anr-chaire}
+
+/////
+Cécile CHAPEAU
+Chargée de mission
+Tél : 01 73 54 82 16
+chairesindustrielles@agencerecherche.fr
+/////
+
+Responsable du programme :
+mailto:chairesindustrielles@agencerecherche.fr[Isabelle Moretti]
+// Anciennement Pr Lionel CHOPLIN
+
+[{topic}]
+== Principes
+
+[{incremental}]
+- Financement {anr} : 500K€ - 1,2M€ sur 4 an
+- Apports industriels : 125K€/an [detail]#À peine une CIFRE#
+
+.[detail]#(source : {anr})#
+image:chaire-anr.png[width=70%,role=middle]
+
+[{topic}]
+== Objectifs
+
+- *Invitations* de personnalités de renom
+- *Echanges* Industrie-Laboratoires
+- *Formation* par la recherche
+
+[{topic}]
+== Projets retenus en 2017
+
+Seulement *4*!
+image:chaire-anr-2017.png[width=90%]
+
+[{topic}]
+== Projets retenus en 2018
+
+Seulement *4*!
+image:chaire-anr-2018.png[width=90%]
+
+[{topic}]
+== Projets retenus en 2017
+
+Seulement *5*!
+image:chaire-anr-2019.png[width=90%]
+
+ifndef::slides[:leveloffset: 0]
+//-----------------------------------
+[{intro}]
+== icon:money[] Intérêts
+//-----------------------------------
+ifndef::slides[:leveloffset: +1]
+
+[{topic}]
+== Intérêts
+
+- Effet levier de *+130%*
+- *Visibilité* [detail]#(e.g., Aéronautique & Espace)#
+- *Faible investissement* [detail]#(environ 4 thèses CIFRE!)#
+
+[{topic}]
+== Calendrier
+
+- décembre 2019 : lancement de l'appel
+- *10 mars 2020* : soumission du dossier
+
+ifndef::slides[:leveloffset: 0]
+//-----------------------------------
+[{intro}]
+== icon:road[] Pistes
+//-----------------------------------
+ifndef::slides[:leveloffset: +1]
+
+[{topic}]
+== Schémas possibles
+
+[{incremental}]
+- Un seul partenaire ?
+- Consortium de partenaires ?
+** icon:plus[] ticket d'entrée plus réaliste
+** icon:minus[] Pb de la PI
+
+[{topic}]
+== Sujets possibles
+
+MBSE
+
+//[{incremental}]
+- Aéronautique & Espace
+- Collaboratif et Multi-disciplines
+- Cognition et IA
+- ...
+
+[{topic}]
+== Titulaires possibles
+
+- Ed Lee (CPS)
+- S. Friedenthal (SysML)
+- T. Wilkiens (SysML)
+- Ed Seidewitz (fUML/ALF)
+- Bran Selic (RT)
+- ...
+
+[{topic}]
+== Déjà acquis
+
+//[{incremental}]
+- 50K€/an [detail]#1/2 salaire coordinateur#
+- 10K€/an [detail]#modalité de service#
+
+[{topic}]
+== Déjà intéressés
+
+[{incremental}]
+- ASYSTEM [detail]#volet formation MBSE / Leur centre SDC#
+- SOPRA-STERIA [detail]#volet formation et recherche MBSE#
+- FITEC [detail]#volet formation#
+- CAP Gemini [detail]#volet formation et recherche MBSE#
+- {prospect} ? icon:smile-o[]
+
+[{topic}]
+== Plan B
+
+chaire sans {ANR} => Projet SKILL de l'IRT
+
+ifdef::slides[]
+// ------------------------------------------ Brainstorm => up
+[{intro}]
+== *The End* {nbsp} {nbsp} {nbsp} [detail]#(for me!)#
+endif::slides[]
+
+////
+:numbered!:
+ifndef::slides[:leveloffset: 0]
+//-----------------------------------
+[{intro}]
+== Annexes
+//-----------------------------------
+ifndef::slides[:leveloffset: +1]
+
+== Définitions
+
+Coordinateur-Titulaire:: celui qui dépose [detail]#(moi!)#
+////

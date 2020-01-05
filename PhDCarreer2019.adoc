@@ -163,7 +163,7 @@ En cas de CDI pour un "jeune docteur" :
 == Salary
 
 [{incremental}]
-- Average PostDoc [detail]#2.000€ / month#
+- Average PostDoc [detail]#2.500€ / month#
 - Luxembourg PostDoc [detail]#4.000€ / month#
 - Average 'CDI' [detail]#40.000€ / year#
 
@@ -186,8 +186,8 @@ image::whatdo.png[width="100%",role="middle"]
 == Start a... startup!
 
 [{incremental}]
-- Start before the end of the thesis
-- Get some help (_incubateur_, _SATT_,...)
+- Start *before the end* of the thesis
+- Get some *help* (incubateur, SATT,...)
 
 
 // ------------------------------------------ plan
@@ -203,6 +203,13 @@ image::whatdo.png[width="100%",role="middle"]
 ** Accept research R.I.P.
 ** Open your mind to new adventure
 
+ifdef::slides[]
+// ------------------------------------------ Brainstorm => up
+[{intro}]
+== *The End* {nbsp} {nbsp} {nbsp} [detail]#(for me!)#
+
+endif::slides[]
+
 [{topic}]
 == More...
 
@@ -213,12 +220,6 @@ image::whatdo.png[width="100%",role="middle"]
 - https://www.sogedev.com/blog/2015/05/19/cir-et-recrutement-de-jeunes-docteurs/
 - http://reussirsathese.com/
 
-ifdef::slides[]
-// ------------------------------------------ Brainstorm => up
-[{intro}]
-== *The End* {nbsp} {nbsp} {nbsp} [detail]#(for me!)#
-
-endif::slides[]
 
 ifndef::slides[]
 == About...
