@@ -3,7 +3,8 @@
 //:prospect: Sopra-Steria
 //:prospect: Fitec
 //:prospect: CAP Gemini
-:prospect: SAFRAN
+//:prospect: SAFRAN
+:prospect: AIRBUS
 
 = icon:plane[] *Chaire* industrielle ANR -- Rencontre {prospect}
 //Jean-Michel Bruel -- bruel@irit.fr -- {localdate}
@@ -194,6 +195,8 @@ MBSE
 - SOPRA-STERIA [detail]#volet formation et recherche MBSE#
 - FITEC [detail]#volet formation#
 - CAP Gemini [detail]#volet formation et recherche MBSE#
+- SAFRAN [detail]#MBSE+MDO#
+
 - {prospect} ? icon:smile-o[]
 
 [{topic}]

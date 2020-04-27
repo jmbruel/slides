@@ -1,0 +1,147 @@
+= icon:book[] Introduction to *Asciidoc* image:asciidoctor-logo.png[width=10%]
+//Jean-Michel Bruel -- bruel@irit.fr -- {localdate}
+Jean-Michel Bruel -- jbruel@gmail.com -- 27/04/2020
+:icons: font
+:experimental:
+:status:
+:imagesdir: images
+:slidesRootSite: https://jmbruel.github.io/slides
+:filename: asciidoc
+:siteurl: {slidesRootSite}/{filename}.slides.html
+//--------------------- slides
+ifdef::slides[]
+:dzslides-style: tomorrow
+//:dzslides-style: stormy, watermelon, tomorrow, truffle, statement, default
+:dzslides-transition: fade
+:dzslides-fonts: family=Yanone+Kaffeesatz:400,700,200,300&family=Cedarville+Cursive
+//:dzslides-highlight: asciidoctor
+:dzslides-highlight: monokai
+:source-highlighter: highlightjs
+:dzslides-status:
+:topic: .topic
+:intro: .topic.intro
+:statement: .topic.statement
+:incremental: .incremental
+:source: .topic.source
+:linkcss:
+endif::slides[]
+//--------------------- cours
+ifndef::slides[]
+:source-highlighter: highlight
+:topic:
+:intro:
+:statement:
+:incremental: %step
+:source:
+:numbered!:
+endif::slides[]
+
+
+// ------------------------------------------ definitions
+ifndef::definitions[]
+include::../definitions.txt[]
+endif::definitions[]
+:androidicon: Android icon:android[]
+:iosicon: http://www.apple.com/fr/ios/[iOS icon:apple[]]
+:slidesurl: https://github.com/jmbruel/slides/PhDCarreer2019.html
+
+//------------------------------------------
+[{intro}]
+== Basic Principles
+//------------------------------------------
+
+[{topic}]
+== icon:ban[role="red"] Forget about WYSIWIG icon:warning[role="yellow"]
+
+image::wysiwyg.jpg[width="100%",role="middle"]
+
+[{topic}]
+== Content vs Result
+
+image::asciidoc1.png[width="100%",role="middle"]
+
+//------------------------------------------
+[{intro}]
+== Tools
+//------------------------------------------
+
+[{topic}]
+== Several options
+
+[{incremental}]
+- Nothing!
+- Online tools
+- AsciidocFX
+- Plug-ins
+
+[{topic}]
+== Nothing!
+
+image::gitlab.png[width="60%",role="middle"]
+
+[{topic}]
+== Online tools
+
+https://asciidoclive.com/
+
+image::asciidoclive.png[width="100%",role="middle"]
+
+
+[{topic}]
+== AsciidocFX
+
+https://asciidocfx.com/
+
+image::asciidocfx.png[width="100%",role="middle"]
+
+[{topic}]
+== Plug-ins
+
+image::visualStudio.png[width="100%",role="middle"]
+
+[{topic}]
+== Additional links
+
+These slides:: {slidesurl}
+Asiidoc:: https://asciidoctor.org/docs/user-manual/
+
+//------------------------------------------
+[{topic}]
+== Photo credits...
+
+- https://www.brooksbell.com/
+
+////
+
+ifndef::slides[]
+== About...
+
+****************************************************************
+This version and the link:{filename}.slides.html[slides version] 
+made by mailto:{email}[{author}] via  {asciidoctorlink} (version `{asciidoctor-version}`) from 'Dan Allen', based on {asciidoc}.
+Licence Creative Commons.
+image:88x31.png["Licence Creative
+Commons",style="border-width:0",link="http://creativecommons.org/licenses/by-sa/3.0/"]
+http://creativecommons.org/licenses/by-sa/3.0/[licence Creative Commons Paternité - Partage à l&#39;Identique 3.0 non transposé].
+****************************************************************
+
+endif::slides[]
+
+////
+
+ifdef::slides[]
+[{topic}]
+== About...
+
+
+====
+This version and the link:{filename}.html[HTML version] 
+made by mailto:{email}[{author}] via  {asciidoctorlink} (version `{asciidoctor-version}`) from 'Dan Allen', based on {asciidoc}.
+Licence Creative Commons.
+image:88x31.png["Licence Creative
+Commons",style="border-width:0",link="http://creativecommons.org/licenses/by-sa/3.0/"]
+http://creativecommons.org/licenses/by-sa/3.0/[licence Creative Commons Paternité - Partage à l&#39;Identique 3.0 non transposé].
+====
+
+endif::slides[]
+
