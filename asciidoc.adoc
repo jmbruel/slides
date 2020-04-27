@@ -43,7 +43,7 @@ include::../definitions.txt[]
 endif::definitions[]
 :androidicon: Android icon:android[]
 :iosicon: http://www.apple.com/fr/ios/[iOS icon:apple[]]
-:slidesurl: https://github.com/jmbruel/slides/PhDCarreer2019.html
+:slidesurl: {siteurl}
 
 //------------------------------------------
 [{intro}]
